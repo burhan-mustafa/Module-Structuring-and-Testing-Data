@@ -1,5 +1,5 @@
 function capitaliseFirstLetter(name) {
-  console.log(name[0].toUpperCase() + name.substring(1));
+  return name[0].toUpperCase() + name.substring(1);
 }
 
 function createGreeting(name) {
