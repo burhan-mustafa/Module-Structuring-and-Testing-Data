@@ -21,7 +21,7 @@ const lastDotIndex = filePath.lastIndexOf(".");
 const firstSlashIndex = filePath.indexOf("/");
 const dir = filePath.slice(firstSlashIndex, lastSlashIndex);
 const ext = filePath.slice(lastDotIndex);
-console.log("The directory is: ${ext}");
-console.log(dir);
+console.log(`The directory is ${dir}`);
+console.log(`The ext is ${ext}`);
 
 // https://www.google.com/search?q=slice+mdn
