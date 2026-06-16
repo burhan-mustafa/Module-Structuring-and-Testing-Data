@@ -34,7 +34,7 @@ console.log(`£${pounds}.${pence}`);
 //     is padded with "0" at the start of the string till there are three characters the reason for this is the minimum amount of characters needed to represent pounds and
 //     pence can be represented by is 3.
 
-//// 9-12. The next variable pounds takes the previous variable paddedPenceNumberString and uses the substring function to create a new string without the last
+// 9-12. The next variable pounds takes the previous variable paddedPenceNumberString and uses the substring function to create a new string without the last
 //     two characters. It uses .length - 2 to stop before the final two characters because those characters represent the pence leaving only the characters
 //     that represent the pounds.
 
